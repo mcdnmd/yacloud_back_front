@@ -1,0 +1,20 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.1
+  title: Item book API
+paths:
+  /{endpoint+}:
+    x-yc-apigateway-any-method:
+      x-yc-apigateway-integration:
+        type: serverless_containers
+        container_id: bbags9422ej4vaio3pad
+        service_account_id: aje3mlte5e0s18duj0ju
+      parameters:
+        - explode: false
+          in: path
+          name: endpoint
+          required: false
+          schema:
+            default: '_'
+            type: string
+          style: simple

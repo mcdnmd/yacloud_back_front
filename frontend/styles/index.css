@@ -1,0 +1,23 @@
+body{
+    background: darkgray;
+    font-family: "Roboto Light", serif;
+}
+
+.items-list{
+    width: 20pc;
+    background: darkseagreen;
+}
+
+.add-item-form{
+    margin: 3pc;
+    width: 30pc;
+    background: aliceblue;
+}
+
+.form-item{
+    margin: 2pc;
+}
+
+.form-button{
+    background: sandybrown;
+}

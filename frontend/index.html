@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Item book</title>
+    <link rel="stylesheet" href="styles/index.css" type="text/css" />
+</head>
+<body>
+    <h1>Items book</h1>
+    <div class="meta-info">
+        <p>Front version: <span class="front-version">0.0.0</span></p>
+        <p>Back version: <span class="back-version">0.0.0</span></p>
+        <p>Replica Name: <span class="back-name">Name</span></p>
+    </div>
+
+    <ul class="items-list"></ul>
+
+    <form class="add-item-form">
+        <label class="form-item">
+            Your name:
+            <input type="text" name="author">
+        </label>
+        <br>
+        <label class="form-item">
+            Title:
+            <input type="text" name="title">
+        </label>
+        <br>
+        <label class="form-item">
+            Text:
+            <textarea name="text" cols="30" rows="10"></textarea>
+        </label>
+        <br>
+
+        <button class="form-item form-button">Add itetm</button>
+    </form>
+
+    <script src="scripts/version.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

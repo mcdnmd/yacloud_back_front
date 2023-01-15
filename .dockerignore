@@ -1,0 +1,9 @@
+*venv
+*deploy
+Dockerfile
+frontend
+.keys
+.gitignore
+Makefile
+README.md
+specification.yml
